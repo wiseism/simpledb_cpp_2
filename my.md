@@ -8,10 +8,6 @@ Run with rng-seed=3986716162
 
 record
 ```
-add_executable(record_test
-record_test.cpp
-)
-target_link_libraries(table_scan_test
-simpledb_server
-)
+add_executable(record_test record_test.cpp)
+target_link_libraries(table_scan_test simpledb_server)
 ```
